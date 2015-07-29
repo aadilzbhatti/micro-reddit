@@ -70,4 +70,10 @@ class UserTest < ActiveSupport::TestCase
     @user.password = @user.password_confirmation = 'a' * 5
     assert_not @user.valid?
   end
+
+  test 'should be able to make a post' do
+    @user2 = User.create(username: 'prevosis', email: 'aadilzbhatti@gmail.com',
+                     password: 'foobar', password_confirmation: 'foobar')
+    @user2.make_post('Why I Became a CS Major', 'To Fuck Up Some Commas')
+  end
 end
