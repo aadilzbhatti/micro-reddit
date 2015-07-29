@@ -1,7 +1,14 @@
 require 'test_helper'
 
 class PostTest < ActiveSupport::TestCase
-  # test "the truth" do
-  #   assert true
-  # end
+  def setup
+    @user = User.new(username: 'prevosis', email: 'aadilzbhatti@gmail.com',
+                     password: 'foobar', password_confirmation: 'foobar')
+    @post = Post.new(title: 'Why I am a CS Major',
+                     description: 'Because I Want to Drown in Schoolwork.', user_id: @user.id)
+  end
+
+  test 'should be valid' do
+    assert @post.valid?
+  end
 end
