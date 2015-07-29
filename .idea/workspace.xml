@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="513ca23f-9f86-4d60-bd21-9c6f685b7151" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/post.rb" afterPath="$PROJECT_DIR$/app/models/post.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/models/post_test.rb" afterPath="$PROJECT_DIR$/test/models/post_test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/models/user_test.rb" afterPath="$PROJECT_DIR$/test/models/user_test.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="micro-reddit.iws" />
@@ -307,6 +302,7 @@
     <property name="recentsLimit" value="5" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RunManager" selected="Rake.test: micro-reddit">
     <configuration default="true" type="RailsRunConfigurationType" factoryName="Rails">
@@ -469,6 +465,9 @@
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="513ca23f-9f86-4d60-bd21-9c6f685b7151" name="Default" comment="" />
@@ -482,7 +481,13 @@
       <option name="project" value="LOCAL" />
       <updated>1438148936367</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="made a micro reddit rails app&#10;">
+      <created>1438150407139</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1438150407139</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -523,7 +528,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="is this love&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="is this love&#10;" />
+    <MESSAGE value="made a micro reddit rails app&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="made a micro reddit rails app&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
